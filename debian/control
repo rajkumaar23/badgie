@@ -1,16 +1,16 @@
 Source: com.github.rajkumaar23.badgie
 Section: x11
-Priority: optional
+Priority: extra
 Maintainer: Rajkumar S <rajkumaar2304@icloud.com>
 Build-Depends: meson,
-               debhelper (>= 9),
+               valac,
+               debhelper (>= 10.5.1),
                libgtk-3-dev,
                libgranite-dev,
-               valac (>= 0.26),
                libsoup2.4-dev,
                libgee-0.8-dev,
                libgdk-pixbuf2.0-dev
-Standards-Version: 3.9.3
+Standards-Version: 4.1.1
 
 Package: com.github.rajkumaar23.badgie
 Architecture: any
