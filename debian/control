@@ -2,10 +2,12 @@ Source: com.github.rajkumaar23.badgie
 Section: x11
 Priority: optional
 Maintainer: Rajkumar S <rajkumaar2304@icloud.com>
-Build-Depends: cmake (>= 2.8),
+Build-Depends: meson,
                debhelper (>= 9),
                libgtk-3-dev,
-               valac (>= 0.40.0)
+               libgranite-dev,
+               valac (>= 0.26),
+               libsoup2.4-dev
 Standards-Version: 3.9.3
 
 Package: com.github.rajkumaar23.badgie
