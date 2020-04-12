@@ -3,6 +3,7 @@
 <component type="desktop">
   <id>com.github.rajkumaar23.badgie</id>
   <metadata_license>CC0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
   <name>Badgie</name>
   <summary>Badges for your android app's README</summary>
   <description>
