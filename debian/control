@@ -7,7 +7,9 @@ Build-Depends: meson,
                libgtk-3-dev,
                libgranite-dev,
                valac (>= 0.26),
-               libsoup2.4-dev
+               libsoup2.4-dev,
+               libgee-0.8-dev,
+               libgdk-pixbuf2.0-dev
 Standards-Version: 3.9.3
 
 Package: com.github.rajkumaar23.badgie
