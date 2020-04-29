@@ -32,6 +32,8 @@ public class MainWindow : ApplicationWindow {
     private Image image;
     private string[] types_array;
     private Gee.HashMap<string, string> type_map;
+    private string API_URL;
+    private string API_REPO;
     
     public MainWindow (Gtk.Application application) {
         Object (
@@ -47,6 +49,8 @@ public class MainWindow : ApplicationWindow {
         
     construct {
         init_type_map();
+        API_URL = "https://api-playstore.rajkumaar.co.in/";
+        API_REPO = "https://github.com/rajkumaar23/playstore-api";
         
         search_entry = new Entry();
         search_entry.set_margin_end(50);
@@ -112,7 +116,7 @@ public class MainWindow : ApplicationWindow {
         this.copy_source.sensitive = false;
         
         var details = new Label("");
-		details.set_markup("For more details, visit <a href='https://github.com/rajkumaar23/playstore-api'>here</a>.");
+		details.set_markup("For more details, visit <a href='" + API_REPO + "'>here</a>.");
 		grid.attach_next_to(details, copy_source, Gtk.PositionType.BOTTOM, 2, 1);
 		
             
@@ -128,7 +132,7 @@ public class MainWindow : ApplicationWindow {
         this.button.sensitive = false;
         this.copy_source.label = "Copy badge link";
         this.copy_source.sensitive = false;
-        var uri = new Soup.URI("https://img.shields.io/endpoint?color=success&url=https://api-playstore.herokuapp.com/"                    
+        var uri = new Soup.URI("https://img.shields.io/endpoint?color=success&url=" + API_URL                    
                     +this.type_map.get(types_array[types.get_active()]) + "?id=" + search_entry.get_text());
 
         try{
@@ -151,7 +155,7 @@ public class MainWindow : ApplicationWindow {
     
     public void copy_markdown(){
         Clipboard clipboard = Clipboard.get_default(Gdk.Display.get_default());
-        clipboard.set_text("https://img.shields.io/endpoint?color=success&url=https://api-playstore.herokuapp.com/"                    
+        clipboard.set_text("https://img.shields.io/endpoint?color=success&url=" + API_URL                    
                     +this.type_map.get(types_array[types.get_active()]) + "?id=" + search_entry.get_text(),-1);
         this.copy_source.label = "Copied!";
         this.copy_source.sensitive = false;
