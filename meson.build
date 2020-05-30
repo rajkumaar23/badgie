@@ -5,12 +5,8 @@ project (
     version: '0.1.4'
 )
 
-
 # Translation module
 i18n = import ('i18n')
-
-# Gnome module
-gnome = import ('gnome')
 
 # Project arguments
 add_project_arguments (
@@ -38,5 +34,6 @@ executable (
 )
 
 subdir ('data')
+subdir ('po')
 
 meson.add_install_script ('meson/post_install.py')

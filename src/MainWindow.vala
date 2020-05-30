@@ -54,7 +54,7 @@ public class MainWindow : ApplicationWindow {
         
         search_entry = new Entry();
         search_entry.set_margin_end(50);
-        var search_label = new Label.with_mnemonic ("Enter app's package name");
+        var search_label = new Label.with_mnemonic (_("Enter app's package name"));
         search_label.mnemonic_widget = this.search_entry;
             
         grid = new Grid();
@@ -66,7 +66,7 @@ public class MainWindow : ApplicationWindow {
         grid.attach_next_to(this.search_entry, search_label, Gtk.PositionType.RIGHT, 1, 1);
         
         var desc = new Label("");
-        desc.set_markup("""<span font="15" color="#1f262a">Badges for your Android App's README</span>""");
+        desc.set_markup("""<span font="15" color="#1f262a">""" + _("Badges for your Android App's README") + "</span>");
         desc.set_margin_bottom(10);
         grid.attach_next_to(desc, search_label, Gtk.PositionType.TOP, 2, 1);
 
@@ -83,13 +83,13 @@ public class MainWindow : ApplicationWindow {
     	types.set_active (0);
     	types.set_margin_end(50);
     		
-    	var type_label = new Label.with_mnemonic ("Choose badge type");
+    	var type_label = new Label.with_mnemonic (_("Choose badge type"));
         type_label.mnemonic_widget = types;
     		
     	grid.attach_next_to(type_label, search_label, Gtk.PositionType.BOTTOM, 1, 1);
     	grid.attach_next_to(types, type_label, Gtk.PositionType.RIGHT, 1, 1);
     		
-    	button = new Gtk.Button.with_label ("Fetch the badge");
+    	button = new Gtk.Button.with_label (_("Fetch the badge"));
 		button.clicked.connect (this.fetch_badge);
 		button.show ();
 		button.set_margin_top(10);
@@ -106,7 +106,7 @@ public class MainWindow : ApplicationWindow {
 		error_view.single_line_mode = false;
 		grid.attach_next_to(error_view, button, Gtk.PositionType.BOTTOM, 2, 1);
 		
-	    copy_source = new Gtk.Button.with_label ("Copy badge link");
+	    copy_source = new Gtk.Button.with_label (_("Copy badge link"));
 		copy_source.clicked.connect (this.copy_markdown);
 		copy_source.set_margin_top(10);
 		copy_source.set_margin_start(50);
@@ -116,7 +116,7 @@ public class MainWindow : ApplicationWindow {
         this.copy_source.sensitive = false;
         
         var details = new Label("");
-		details.set_markup("For more details, visit <a href='" + API_REPO + "'>here</a>.");
+		details.set_markup(_("For more details, visit <a href='%s'>here</a>.").printf(API_REPO));
 		grid.attach_next_to(details, copy_source, Gtk.PositionType.BOTTOM, 2, 1);
 		
             
@@ -128,9 +128,9 @@ public class MainWindow : ApplicationWindow {
         if(search_entry.get_text() == ""){
             return;
         }
-        this.button.label = "Fetching your badge..";
+        this.button.label = _("Fetching your badge…");
         this.button.sensitive = false;
-        this.copy_source.label = "Copy badge link";
+        this.copy_source.label = _("Copy badge link");
         this.copy_source.sensitive = false;
         var uri = new Soup.URI("https://img.shields.io/endpoint?color=success&url=" + API_URL                    
                     +this.type_map.get(types_array[types.get_active()]) + "?id=" + search_entry.get_text());
@@ -146,9 +146,9 @@ public class MainWindow : ApplicationWindow {
             this.copy_source.sensitive = true;
         }catch(Error error){
             stderr.printf((string)error);
-            this.error_view.set_text("Oops! An unexpected error occurred 😓️");
+            this.error_view.set_text(_("Oops! An unexpected error occurred 😓️"));
         }finally{
-            this.button.label = "Fetch your badge";
+            this.button.label = _("Fetch your badge");
             this.button.sensitive = true;
         }
     }
@@ -157,10 +157,10 @@ public class MainWindow : ApplicationWindow {
         Clipboard clipboard = Clipboard.get_default(Gdk.Display.get_default());
         clipboard.set_text("https://img.shields.io/endpoint?color=success&url=" + API_URL                    
                     +this.type_map.get(types_array[types.get_active()]) + "?id=" + search_entry.get_text(),-1);
-        this.copy_source.label = "Copied!";
+        this.copy_source.label = _("Copied!");
         this.copy_source.sensitive = false;
         Timeout.add_seconds (2, () => {
-            this.copy_source.label = "Copy badge link";
+            this.copy_source.label = _("Copy badge link");
             this.copy_source.sensitive = true;
             return false;
         });
@@ -169,12 +169,12 @@ public class MainWindow : ApplicationWindow {
     public void init_type_map(){
         this.types_array = {"Version", "Installs", "Rating", "Size", "Developer", "Last Updated", "No of users rated"};
         this.type_map = new Gee.HashMap<string, string>();
-        this.type_map.set("Version","version");
-        this.type_map.set("Installs","downloads");
-        this.type_map.set("Rating","rating");
-        this.type_map.set("Size","size");
-        this.type_map.set("Developer","developer");
-        this.type_map.set("Last Updated","lastUpdated");
-        this.type_map.set("No of users rated","noOfUsersRated");
+        this.type_map.set(_("Version"),"version");
+        this.type_map.set(_("Installs"),"downloads");
+        this.type_map.set(_("Rating"),"rating");
+        this.type_map.set(_("Size"),"size");
+        this.type_map.set(_("Developer"),"developer");
+        this.type_map.set(_("Last Updated"),"lastUpdated");
+        this.type_map.set(_("No of users rated"),"noOfUsersRated");
     }
 }

@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.rajkumaar23.badgie package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.rajkumaar23.badgie\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-30 19:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/MainWindow.vala:43
+msgid "Badgie"
+msgstr ""
+
+#: src/MainWindow.vala:57
+msgid "Enter app's package name"
+msgstr ""
+
+#: src/MainWindow.vala:69
+msgid "Badges for your Android App's README"
+msgstr ""
+
+#: src/MainWindow.vala:86
+msgid "Choose badge type"
+msgstr ""
+
+#: src/MainWindow.vala:92
+msgid "Fetch the badge"
+msgstr ""
+
+#: src/MainWindow.vala:109 src/MainWindow.vala:133 src/MainWindow.vala:163
+msgid "Copy badge link"
+msgstr ""
+
+#: src/MainWindow.vala:119
+#, c-format
+msgid "For more details, visit <a href='%s'>here</a>."
+msgstr ""
+
+#: src/MainWindow.vala:131
+msgid "Fetching your badge…"
+msgstr ""
+
+#: src/MainWindow.vala:149
+msgid "Oops! An unexpected error occurred 😓️"
+msgstr ""
+
+#: src/MainWindow.vala:151
+msgid "Fetch your badge"
+msgstr ""
+
+#: src/MainWindow.vala:160
+msgid "Copied!"
+msgstr ""
+
+#: src/MainWindow.vala:172
+msgid "Version"
+msgstr ""
+
+#: src/MainWindow.vala:173
+msgid "Installs"
+msgstr ""
+
+#: src/MainWindow.vala:174
+msgid "Rating"
+msgstr ""
+
+#: src/MainWindow.vala:175
+msgid "Size"
+msgstr ""
+
+#: src/MainWindow.vala:176
+msgid "Developer"
+msgstr ""
+
+#: src/MainWindow.vala:177
+msgid "Last Updated"
+msgstr ""
+
+#: src/MainWindow.vala:178
+msgid "No of users rated"
+msgstr ""
