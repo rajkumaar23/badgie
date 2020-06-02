@@ -1,47 +1,49 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# French translations for extra package.
+# Copyright (C) 2020 THE extra'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the extra package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Nathan Bonnemains (@NathanBnm), 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-01 12:24+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2020-06-01 10:15+0200\n"
+"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
+"Language-Team: Français\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: data/com.github.rajkumaar23.badgie.desktop.in:3
 #: data/com.github.rajkumaar23.badgie.appdata.xml.in:7
 msgid "Badgie"
-msgstr ""
+msgstr "Badgie"
 
 #: data/com.github.rajkumaar23.badgie.desktop.in:4
 msgid "Badge Generator"
-msgstr ""
+msgstr "Générateur de badges"
 
 #: data/com.github.rajkumaar23.badgie.desktop.in:5
 msgid ""
 "Generate realtime badges from PlayStore data for your android app README"
 msgstr ""
+"Générez des badges en temps réel depuis les données du PlayStore pour le "
+"fichier README de votre application Android"
 
 #: data/com.github.rajkumaar23.badgie.desktop.in:8
 msgid "com.github.rajkumaar23.badgie"
-msgstr ""
+msgstr "com.github.rajkumaar23.badgie"
 
 #: data/com.github.rajkumaar23.badgie.desktop.in:11
 msgid "Playstore;Badge;"
-msgstr ""
+msgstr "Playstore;Badge;"
 
 #: data/com.github.rajkumaar23.badgie.appdata.xml.in:8
 msgid "Badges for your android app's README"
-msgstr ""
+msgstr "Des badges pour le fichier README de votre application Android"
 
 #: data/com.github.rajkumaar23.badgie.appdata.xml.in:10
 msgid ""
@@ -49,7 +51,11 @@ msgid ""
 "realtime data from Google Playstore such as Version, Number of Installs, "
 "Rating etc"
 msgstr ""
+"Dites NON au code brut ! Générez des badges pour le fichier README de votre "
+"application Android avec les données en temps réel issues du Google "
+"Playstore, telles que la version, le nombre d'installations, le nombre "
+"d'évaluations, etc."
 
 #: data/com.github.rajkumaar23.badgie.appdata.xml.in:12
 msgid "Rajkumar S"
-msgstr ""
+msgstr "Rajkumar S"
