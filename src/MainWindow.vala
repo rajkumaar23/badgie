@@ -141,7 +141,7 @@ public class MainWindow : ApplicationWindow {
             var stream = new BufferedInputStream(
                 yield req.send_async(null)
             );
-            Gdk.Pixbuf pixbuf = yield new Gdk.Pixbuf.from_stream_at_scale_async (stream, 220, -1, true);
+            Gdk.Pixbuf pixbuf = yield new Gdk.Pixbuf.from_stream_at_scale_async (stream, -1, 40, true);
             this.image.set_from_pixbuf (pixbuf);
             this.copy_source.sensitive = true;
         }catch(Error error){
