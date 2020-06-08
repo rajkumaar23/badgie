@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.rajkumaar23.badgie\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-01 12:24+0200\n"
+"POT-Creation-Date: 2020-06-08 09:49+0200\n"
 "PO-Revision-Date: 2020-06-01 10:15+0200\n"
 "Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
 "Language-Team: Français\n"
@@ -62,30 +62,30 @@ msgstr "Récupérer votre badge"
 msgid "Copied!"
 msgstr "Copié !"
 
-#: src/MainWindow.vala:172
+#: src/MainWindow.vala:170 src/MainWindow.vala:172
 msgid "Version"
 msgstr "Version"
 
-#: src/MainWindow.vala:173
+#: src/MainWindow.vala:170 src/MainWindow.vala:173
 msgid "Installs"
 msgstr "Nombre d'installations"
 
-#: src/MainWindow.vala:174
+#: src/MainWindow.vala:170 src/MainWindow.vala:174
 msgid "Rating"
 msgstr "Avis"
 
-#: src/MainWindow.vala:175
+#: src/MainWindow.vala:170 src/MainWindow.vala:175
 msgid "Size"
 msgstr "Taille"
 
-#: src/MainWindow.vala:176
+#: src/MainWindow.vala:170 src/MainWindow.vala:176
 msgid "Developer"
 msgstr "Développeur"
 
-#: src/MainWindow.vala:177
+#: src/MainWindow.vala:170 src/MainWindow.vala:177
 msgid "Last Updated"
 msgstr "Dernière mise à jour"
 
-#: src/MainWindow.vala:178
+#: src/MainWindow.vala:170 src/MainWindow.vala:178
 msgid "No of users rated"
 msgstr "Nombre d'utilisateurs qui ont donné leur avis"

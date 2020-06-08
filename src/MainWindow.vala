@@ -167,7 +167,7 @@ public class MainWindow : ApplicationWindow {
     }
 
     public void init_type_map(){
-        this.types_array = {"Version", "Installs", "Rating", "Size", "Developer", "Last Updated", "No of users rated"};
+        this.types_array = {_("Version"), _("Installs"), _("Rating"), _("Size"), _("Developer"), _("Last Updated"), _("No of users rated")};
         this.type_map = new Gee.HashMap<string, string>();
         this.type_map.set(_("Version"),"version");
         this.type_map.set(_("Installs"),"downloads");
