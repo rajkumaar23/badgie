@@ -1,6 +1,7 @@
 <div align="center">
   <p><img src="data/screenshots/1.png"/></p>
   <h1>Badgie</h1>
+  <p><img height="100" width="100" src="data/icons/128/com.github.rajkumaar23.badgie.svg"/></p>
   <p>
     Say NO to hardcoding!
     <br>
