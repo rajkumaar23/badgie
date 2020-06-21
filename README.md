@@ -1,14 +1,25 @@
-# Badgie
+<div align="center">
+  <p><img src="data/screenshots/1.png"/></p>
+  <h1>Badgie</h1>
+  <p><img height="100" width="100" src="data/icons/128/com.github.rajkumaar23.badgie.svg"/></p>
+  <p>
+    Say NO to hardcoding!
+    <br>
+    Generate badges for your android app's README with realtime data
+    <br>
+    from Google Playstore such as Version, Number of Installs, Rating etc
+  </p>
+</div>
 
-Say NO to hardcoding! Generate badges for your android app's README with realtime data from Google Playstore such as Version, Number of Installs, Rating etc
-
-![Badgie Screenshot](data/screenshots/1.png)
-
-## Get it from the elementary OS AppCenter!
-
-[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/com.github.rajkumaar23.badgie)
-
-This app is available on the elementary OS AppCenter.
+<div align="center">
+  <a href='https://appcenter.elementary.io/com.github.rajkumaar23.badgie'>
+    <img src="https://appcenter.elementary.io/badge.svg"/>
+  </a>
+  <p>This app is available on the elementary OS AppCenter.</p>
+  <a href='https://www.behance.net/ragulraj1'>
+    <img src="https://img.shields.io/static/v1?label=Logo%20Designed%20By&message=Ragul%20Raj&color=important&logo=behance"/>
+  </a>
+</div>
 
 # Install it from source
 
