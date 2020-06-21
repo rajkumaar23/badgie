@@ -2,7 +2,7 @@
 project (
     'com.github.rajkumaar23.badgie',
     'vala', 'c',
-    version: '0.1.4'
+    version: '0.2.0'
 )
 
 # Translation module
