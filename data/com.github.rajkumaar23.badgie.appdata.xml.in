@@ -12,6 +12,7 @@
   <developer_name>Rajkumar S</developer_name>
   <url type="homepage">https://github.com/rajkumaar23/badgie</url>
   <url type="bugtracker">https://github.com/rajkumaar23/badgie/issues</url>
+  <url type="donation">https://paypal.me/rajkumaar23</url>
   <url type="help">https://github.com/rajkumaar23/badgie/issues</url>
   <update_contact>rajkumaar2304@icloud.com</update_contact>
   <content_rating type="oars-1.1">
@@ -48,6 +49,17 @@
       <image>https://raw.githubusercontent.com/rajkumaar23/badgie/master/data/screenshots/1.png</image>
     </screenshot>
   </screenshots>
+  <releases>
+    <release version="0.2.1" date="2020-07-17">
+      <description>
+        <ul>
+          <li>Add French translation (@NathanBnm) 🍟️</li>
+          <li>Change app icon 🎉️</li>
+          <li>Set a consistent badge height ↕️</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
   <custom>
      <value key="x-appcenter-color-primary">#EAF5D8</value>
      <value key="x-appcenter-color-primary-text">#206b00</value>
