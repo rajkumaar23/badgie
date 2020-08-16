@@ -1,8 +1,14 @@
+com.github.rajkumaar23.badgie (0.2.2) bionic; urgency=medium
+
+  * Add Dutch translation (@Vistaus | Heimen Stoffels) 🇳🇱
+
+ -- Rajkumar <rajkumar@rajkumar-pc>  Sun, 16 Aug 2020 21:33:07 +0530
+
 com.github.rajkumaar23.badgie (0.2.1) bionic; urgency=medium
 
-  * Add French translation (@NathanBnm) 🍟️</li>
-  * Change app icon 🎉️</li>
-  * Set a consistent badge height ↕️</li>
+  * Add French translation (@NathanBnm) 🍟️
+  * Change app icon 🎉️
+  * Set a consistent badge height ↕️
 
  -- Rajkumar <rajkumar@rajkumar-pc>  Fri, 17 Jul 2020 12:47:07 +0530
 

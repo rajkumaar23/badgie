@@ -50,6 +50,13 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="0.2.2" date="2020-08-16">
+      <description>
+        <ul>
+          <li>Add Dutch translation (@Vistaus | Heimen Stoffels) 🇳🇱</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.2.1" date="2020-07-17">
       <description>
         <ul>
