@@ -1,0 +1,91 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.rajkumaar23.badgie package.
+#
+# Safak <bjksafak45@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.rajkumaar23.badgie\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-08 09:49+0200\n"
+"PO-Revision-Date: 2020-09-25 23:47+0300\n"
+"Last-Translator: Safak <bjksafak45@gmail.com>\n"
+"Language-Team: Turkish \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: src/MainWindow.vala:43
+msgid "Badgie"
+msgstr "Badgie"
+
+#: src/MainWindow.vala:57
+msgid "Enter app's package name"
+msgstr "Uygulamanın paket adını girin"
+
+#: src/MainWindow.vala:69
+msgid "Badges for your Android App's README"
+msgstr "Android Uygulamanızın Açıklaması için rozetler"
+
+#: src/MainWindow.vala:86
+msgid "Choose badge type"
+msgstr "Rozet türünü seçin"
+
+#: src/MainWindow.vala:92
+msgid "Fetch the badge"
+msgstr "Rozeti getir"
+
+#: src/MainWindow.vala:109 src/MainWindow.vala:133 src/MainWindow.vala:163
+msgid "Copy badge link"
+msgstr "Rozet bağlantısını kopyala"
+
+#: src/MainWindow.vala:119
+#, c-format
+msgid "For more details, visit <a href='%s'>here</a>."
+msgstr "Daha fazla ayrıntı için <a href='%s'>burayı</a> ziyaret edin."
+
+#: src/MainWindow.vala:131
+msgid "Fetching your badge…"
+msgstr "Rozetiniz alınıyor…"
+
+#: src/MainWindow.vala:149
+msgid "Oops! An unexpected error occurred 😓️"
+msgstr "Oops! Beklenmeyen bir hata oluştu 😓️"
+
+#: src/MainWindow.vala:151
+msgid "Fetch your badge"
+msgstr "Rozetinizi alın"
+
+#: src/MainWindow.vala:160
+msgid "Copied!"
+msgstr "Kopyalandı!"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:172
+msgid "Version"
+msgstr "Versiyon"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:173
+msgid "Installs"
+msgstr "Yüklerken"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:174
+msgid "Rating"
+msgstr "Değerlendirme"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:175
+msgid "Size"
+msgstr "Boyut"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:176
+msgid "Developer"
+msgstr "Geliştirici"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:177
+msgid "Last Updated"
+msgstr "Son güncelleme"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:178
+msgid "No of users rated"
+msgstr "Puan alan kullanıcı yok"
