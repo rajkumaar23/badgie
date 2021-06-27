@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.rajkumaar23.badgie package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Saverio <saverio.morelli@outlook.it>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.rajkumaar23.badgie\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-08 09:49+0200\n"
+"PO-Revision-Date: 2021-06-27 23:31+0200\n"
+"Language-Team: Italian <saverio.morelli@outlook.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 40.0\n"
+"Last-Translator: Saverio <saverio.morelli@outlook.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language: it\n"
+
+#: src/MainWindow.vala:43
+msgid "Badgie"
+msgstr "Badgie"
+
+#: src/MainWindow.vala:57
+msgid "Enter app's package name"
+msgstr "Inserisci il package name dell'app"
+
+#: src/MainWindow.vala:69
+msgid "Badges for your Android App's README"
+msgstr "Distintivo per il README della tua app Android"
+
+#: src/MainWindow.vala:86
+msgid "Choose badge type"
+msgstr "Scegli il tipo di distintivo"
+
+#: src/MainWindow.vala:92
+msgid "Fetch the badge"
+msgstr "Genera il distintivo"
+
+#: src/MainWindow.vala:109 src/MainWindow.vala:133 src/MainWindow.vala:163
+msgid "Copy badge link"
+msgstr "Copia il link del distintivo"
+
+#: src/MainWindow.vala:119
+#, c-format
+msgid "For more details, visit <a href='%s'>here</a>."
+msgstr "Per maggiori dettagli, vai <a href='%s'>qui</a>."
+
+#: src/MainWindow.vala:131
+msgid "Fetching your badge…"
+msgstr "Generazione del badge in corso…"
+
+#: src/MainWindow.vala:149
+msgid "Oops! An unexpected error occurred 😓️"
+msgstr "Ops! Si è verificato un errore inaspettato 😓️"
+
+#: src/MainWindow.vala:151
+msgid "Fetch your badge"
+msgstr "Genera il tuo distintivo"
+
+#: src/MainWindow.vala:160
+msgid "Copied!"
+msgstr "Copiato"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:172
+msgid "Version"
+msgstr "Versione"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:173
+msgid "Installs"
+msgstr "Installazioni"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:174
+msgid "Rating"
+msgstr "Valutazione"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:175
+msgid "Size"
+msgstr "Dimensione"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:176
+msgid "Developer"
+msgstr "Sviluppatore"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:177
+msgid "Last Updated"
+msgstr "Ultimo aggiornamento"
+
+#: src/MainWindow.vala:170 src/MainWindow.vala:178
+msgid "No of users rated"
+msgstr "Numero di utenti recensori"
