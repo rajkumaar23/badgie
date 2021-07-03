@@ -1,0 +1,21 @@
+app-id: com.github.rajkumaar23.badgie
+
+runtime: io.elementary.Platform
+runtime-version: 'daily'
+sdk: io.elementary.Sdk
+
+
+command: com.github.rajkumaar23.badgie
+
+finish-args:
+  - '--share=ipc'
+  - '--socket=fallback-x11'
+  - '--socket=wayland'
+  - '--metadata=X-DConf=migrate-path=/com/github/rajkumaar23/badgie/'
+
+modules:
+  - name: badgie
+    buildsystem: meson
+    sources:
+      - type: dir
+        path: .
