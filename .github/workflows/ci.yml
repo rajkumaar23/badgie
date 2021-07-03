@@ -15,7 +15,7 @@ jobs:
     - name: Build
       uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
       with:
-        bundle: harvey.flatpak
+        bundle: badgie.flatpak
         manifest-path: com.github.rajkumaar23.badgie.yml
         run-tests: true
         repository-name: elementary
