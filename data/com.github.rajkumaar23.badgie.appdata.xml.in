@@ -50,6 +50,14 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="0.3.2" date="2021-08-05">
+      <description>
+        <ul>
+          <li>Resize window</li>
+          <li>Update screenshots</li>
+        </ul>
+      </description>
+    </release>  
     <release version="0.3.1" date="2021-08-03">
       <description>
         <ul>

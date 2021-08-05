@@ -41,8 +41,8 @@ public class MainWindow : ApplicationWindow {
             icon_name: "com.github.rajkumaar23.badgie",
             resizable: false,
             title: _("Badgie"),
-            height_request: 500,
-            width_request: 700,
+            height_request: 300,
+            width_request: 500,
             border_width: 10
         );
     }
