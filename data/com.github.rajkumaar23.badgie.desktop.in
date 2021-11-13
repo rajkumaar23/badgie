@@ -2,7 +2,7 @@
 Name=Badgie
 GenericName=Badge Generator
 Comment=Generate realtime badges from PlayStore data for your android app README
-Categories=Utility;
+Categories=Utility;Development;
 Exec=com.github.rajkumaar23.badgie
 Icon=com.github.rajkumaar23.badgie
 Terminal=false
