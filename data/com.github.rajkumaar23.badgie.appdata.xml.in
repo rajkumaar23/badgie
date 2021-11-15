@@ -50,6 +50,13 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="0.3.3" date="2021-11-15">
+      <description>
+        <ul>
+          <li>Update application categories</li>
+        </ul>
+      </description>
+    </release>    
     <release version="0.3.2" date="2021-08-05">
       <description>
         <ul>
